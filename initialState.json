@@ -1,0 +1,113 @@
+{
+      "initalState": {
+      "mylist": [],
+      "trends": [
+        {
+          "id": 1,
+          "slug": "tvshow-2",
+          "title": "Instituto Tecnologico de Pabello de artega",
+          "type": "Scripted",
+          "language": "English",
+          "year": 2009,
+          "contentRating": "16+",
+          "duration": 164,
+          "cover": "http://localhost/sinap__/public/img/tecnologicos/01DIT0001Z.png",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "slug": "tvshow-3",
+          "title": "tecnologico1",
+          "type": "Adventure",
+          "language": "",
+          "year": 2002,
+          "contentRating": "16+",
+          "duration": 137,
+          "cover": "",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "slug": "tvshow-4",
+          "title": "tecnologico 2",
+          "type": "Comedy",
+          "language": "English",
+          "year": 2014,
+          "contentRating": "16+",
+          "duration": 163,
+          "cover": "",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "slug": "tvshow-6",
+          "title": "ssss",
+          "type": "Scripted",
+          "language": "English",
+          "year": 2017,
+          "contentRating": "16+",
+          "duration": 124,
+          "cover": "",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "slug": "tvshow-7",
+          "title": "ssssss",
+          "type": "Drama",
+          "language": "English",
+          "year": 2011,
+          "contentRating": "16+",
+          "duration": 179,
+          "cover": "",
+          "description": "",
+          "source": ""
+        }
+      ],
+      "originals": [
+        {
+          "id": 6,
+          "slug": "tvshow-8",
+          "title": "sddsddfdsfsdf",
+          "type": "Action",
+          "language": "English",
+          "year": 2012,
+          "contentRating": "16+",
+          "duration": 148,
+          "cover": "",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "slug": "tvshow-9",
+          "title": "ddddddddd",
+          "type": "Action",
+          "language": "English",
+          "year": 2019,
+          "contentRating": "16+",
+          "duration": 128,
+          "cover": "",
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 8,
+          "slug": "tvshow-10",
+          "title": "sdsdfsdfdfsdfsd",
+          "type": "Animation",
+          "language": "English",
+          "year": 2011,
+          "contentRating": "16+",
+          "duration": 346,
+          "cover": "",
+          "description": "",
+          "source": ""
+        }
+      ]
+    }
+  }

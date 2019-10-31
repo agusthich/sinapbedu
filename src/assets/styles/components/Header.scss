@@ -1,0 +1,59 @@
+.header {
+    align-items: center;
+    background: #1B3F6A;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .header_img {
+    margin-left: 30px;
+    width: 200px;
+    height: 100px;
+
+  }
+  
+  .header_menu {
+      margin-right: 50px;
+  }
+  
+  .header_menu ul {
+    display: none;
+    list-style: none;
+    margin: 5px 0px 0px -14px;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+  }
+  
+  .header_menu:hover ul, ul:hover {
+      display: block;
+  }
+  
+  .header_menu li {
+    margin: 10px 0px;
+  }
+  
+  .header_menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header_menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .header_menu--profile {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .header_menu--profile img {
+    margin-right: 8px;
+    width: 40px;
+  }

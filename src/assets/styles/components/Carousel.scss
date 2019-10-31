@@ -1,0 +1,27 @@
+.carousel {
+    overflow: scroll;
+    padding-left: 10px;
+    width: 50%;
+    position: relative;
+  }
+  
+  .carousel_container {
+    transition: 450ms -webkit-transform;
+    transition: 450ms transform;
+    transition: 450ms transform, 450ms -webkit-transform;
+    font-size: 0;
+    white-space: nowrap;
+    margin: 70px 10px;
+    padding-bottom: 10px;
+  }
+  
+  .carousel_container:hover .carousel-item {
+    opacity: 0.3;
+  }
+  
+  .carousel_container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 1;
+  }
+  
