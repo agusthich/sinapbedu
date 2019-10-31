@@ -103,16 +103,54 @@
           "source": ""
         }
       ],
-      "sinap": [
+      "chihuahua": [
         {
           "id": 9,
           "slug": "tvshow-8",
-          "title": "Instituto Tecnológico de Orizaba",
+          "title": "Instituto Tecnológico de chihuahua",
           "type": "Action",
           "year": 2012,
           "contentRating": "16+",
           "duration": 148,
-          "cover": "http://localhost//sinap__/public/video/sinap.mp4",
+          "cover": "http://localhost/sinap__/public/img/tecnologicos/08DIT0002S.png",
+         
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 10,
+          "slug": "tvshow-8",
+          "title": "Instituto Tecnológico de parral",
+          "type": "Action",
+          "year": 2012,
+          "contentRating": "16+",
+          "duration": 148,
+          "cover": "http://localhost/sinap__/public/img/tecnologicos/08DIT0003R.png",         
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 11,
+          "slug": "tvshow-8",
+          "title": "Instituto Tecnológico de Delicias",
+          "type": "Action",
+          "year": 2012,
+          "contentRating": "16+",
+          "duration": 148,
+          "cover": "http://localhost/sinap__/public/img/tecnologicos/08DIT0004Q.png",
+         
+          "description": "",
+          "source": ""
+        },
+        {
+          "id": 12,
+          "slug": "tvshow-8",
+          "title": "Instituto Tecnológico de Chihuahua2",
+          "type": "Action",
+          "year": 2012,
+          "contentRating": "16+",
+          "duration": 148,
+          "cover": "http://localhost/sinap__/public/img/tecnologicos/08DIT00012Z.png",
          
           "description": "",
           "source": ""

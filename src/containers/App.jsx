@@ -24,9 +24,18 @@ return (
          <Header/>
 
          <Search/>
+
+         <Categorias title="Estado de Chihuahua">
+               <Carousel>
+               {initialState.chihuahua.map(item =>
+              <CarouselItem key={item.id} {...item} />
+            )}
+            
+               </Carousel>
+           </Categorias> 
        
         
-           <Categorias title="Veracruz">
+           <Categorias title="Estado de Veracruz">
                <Carousel>
                {initialState.veracruz.map(item =>
               <CarouselItem key={item.id} {...item} />
@@ -36,7 +45,7 @@ return (
            </Categorias> 
           
         
-         <Categorias title="Puebla">
+         <Categorias title="Estado de Puebla">
            <Carousel>
              {initialState.puebla.map(item =>
                <CarouselItem key={item.id} {...item}/>
