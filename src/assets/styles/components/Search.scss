@@ -14,18 +14,25 @@
 
   .input {
     background-color: rgba(255,255,255,0.1);
-    border: 3px solid blue;
-    border-radius: 50px;
-    color: black;
+    width: 130px;
     font-family: 'Muli', sans-serif;
     text-indent: 15px;
     font-size: 25px;
     height: 50px;
     margin-bottom: 20px;
     outline: none;
-    padding: 0px 20px;
-    width: 70%;
-  }
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('../../static/lupa.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 400px;
+    }
   
   ::placeholder {
     color: black;

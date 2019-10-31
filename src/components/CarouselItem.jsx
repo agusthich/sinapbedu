@@ -11,13 +11,12 @@ const CarouselItem = ({cover,title,year,contentRating,duration}) => (
     <div className="carousel-item">
         <img className="carousel-item_img" src={cover} alt={title} />
         <div className="carousel-item_details">
-          <div>
-            <img className="carousel-item_details--img" src={playIcon} alt="Play Icon" /> 
-            <img className="carousel-item_details--img" src={plusIcon} alt="Plus Icon" /> 
-          </div>
+          
           <p className="carousel-item_details--title">{title}</p>
           <p className="carousel-item_details--subtitle">
-          {`${year} ${contentRating} ${duration}`}
+          {`${year} 
+          ${contentRating} 
+          ${duration}`}
           </p>
         </div>
     </div>

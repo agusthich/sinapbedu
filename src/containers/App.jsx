@@ -22,11 +22,13 @@ return (
 
     <div className="App">
          <Header/>
+
          <Search/>
+       
         
-           <Categorias title="Ciudad de mexico">
+           <Categorias title="Veracruz">
                <Carousel>
-               {initialState.originals.map(item =>
+               {initialState.veracruz.map(item =>
               <CarouselItem key={item.id} {...item} />
             )}
             
@@ -34,28 +36,17 @@ return (
            </Categorias> 
           
         
-         <Categorias title="Chihuahua">
+         <Categorias title="Puebla">
            <Carousel>
-             {initialState.trends.map(item =>
+             {initialState.puebla.map(item =>
                <CarouselItem key={item.id} {...item}/>
              )}
              
              
            </Carousel>
          </Categorias>
-
-
-         <Categorias title="Puebla">
-           <Carousel>
-             <CarouselItem/>
-           </Carousel>
-         </Categorias>
-          
-
-
        
          <Footer/> 
-         <Tramites/>
     
     </div>
   );

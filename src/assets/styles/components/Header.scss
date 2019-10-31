@@ -3,7 +3,7 @@
     background: #1B3F6A;
     color: white;
     display: flex;
-    height: 100px;
+    height: 150px;
     justify-content: space-between;
     top: 0px;
     width: 100%;
@@ -47,13 +47,27 @@
     text-decoration: underline;
   }
   
-  .header_menu--profile {
+  .header_menu--perfi {
     align-items: center;
     display: flex;
     cursor: pointer;
   }
   
-  .header_menu--profile img {
+  .header_menu--perfil img {
     margin-right: 8px;
     width: 40px;
   }
+.head {
+  align-items: center;
+  background-color: #1B3F6A;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+.head a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 100px;
+  text-decoration: none;
+}

@@ -6,10 +6,9 @@ const Footer=()=>(
 
     <footer className="footer">
     <a href="/">Terminos de uso</a>
-    <a href="/">Declaración de privacidad</a>
-    <a href="/">Centro de ayuda</a>
-    <a href="/">Derechos Reservados</a>
-    <a href="/Tramites">Tramites</a>
+    
+    <a href="/">Av. Universidad 1200, Col. Xoco, Ciudad de México, Alcaldía Benito Juárez C.P. 03330</a>
+   
 
   </footer>
 
